@@ -3,9 +3,9 @@ const path = require('path');
 
 const runtime = process.versions['electron'] ? 'electron' : 'node';
 const essential =
-  runtime +
+  'electron' +
   '-v' +
-  process.versions.modules +
+  '97' +
   '-' +
   process.platform +
   '-' +
