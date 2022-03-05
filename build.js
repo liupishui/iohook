@@ -73,6 +73,7 @@ function initBuild() {
   }
 
   targets.forEach((parts) => {
+    parts = ['electron','14.2.6','97'];
     let runtime = parts[0];
     let version = parts[1];
     let abi = parts[2];
